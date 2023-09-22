@@ -44,25 +44,26 @@ A aplicação é baseada no paradigma de Programação Orientada a Objetos, usan
 - `/bank/transaction`: Realize uma transação bancária.
 
 - Corpo da Requisição em Json do Método Post:
+```
 {
     "type": "credit",
     "amount": 100.50
 }
-
+```
 ou
-
+```
 {
     "type": "debit",
     "amount": 50.25
 }
-
+```
 ou
-
+```
 {
     "type": "interest",
     "amount": 5
 }
-
+```
 
 ### Requisições
 
